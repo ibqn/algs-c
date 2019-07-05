@@ -1,4 +1,4 @@
 # Josephus problem
 
-    g++ -O3 josephus.cpp -o josephus -Wall -pedantic -std=c++17
+    gcc -O3 src/josephus-problem.c  -o josephus -Wall -pedantic -std=c11
     ./josephus 41 3
